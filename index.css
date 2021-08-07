@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+#main {
+    color:hsl(234, 12%, 34%);
+    font-size: 30px;
+    font-weight: 200;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sub {
+    color:hsl(234, 12%, 34%);
+    font-size: 30px;
+    font-weight: bold;
+}
+#detail {
+    color: hsl(229, 6%, 66%);
+    font-size: 15px;
+    width: 510px;
+    text-align: center;
+    font-weight: 400;
+}
+.card > div > :first-child {
+    color:hsl(234, 12%, 34%);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card > div > p {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.card > div > img {
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+.card {
+    width: 350px;
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.content {
+    padding: 10px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.cards > :nth-child(1) {
+    background-color: hsl(180, 62%, 55%);
+    margin-right: 30px;
+}
+
+.cards > :nth-child(2) > :first-child {
+    background-color:hsl(0, 78%, 62%);
+}
+
+.cards > :nth-child(2) > :last-child {
+    background-color:hsl(34, 97%, 64%);
+}
+
+.cards > :nth-child(3) {
+    background-color:hsl(212, 86%, 64%);
+    margin-left: 30px;
+}
+
+.cards {
+    margin: 10px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
